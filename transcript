@@ -1,0 +1,127 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile C:/Users/AMR/OneDrive/Desktop/ITI_labs/RISC_V_Cache/risc_top.v 
+vsim -gui work.top_cache
+# vsim -gui work.top_cache 
+# Loading work.top_cache
+# Loading work.cache_fsm
+# Loading work.data_mem
+# Loading work.cache_mem
+# WARNING: No extended dataflow license exists
+vsim -gui work.risc_top
+# vsim -gui work.risc_top 
+# Loading work.risc_top
+# Loading work.inst_mem
+# Loading work.add_4
+# Loading work.adder
+# Loading work.mux2x1
+# Loading work.pc_count
+# Loading work.mux4x1
+# Loading work.reg_file
+# Loading work.extend
+# Loading work.alu
+# Loading work.top_cache
+# Loading work.cache_fsm
+# Loading work.data_mem
+# Loading work.cache_mem
+# Loading work.control_unit
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/risc_top/read_data2
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: AMR  Hostname: DESKTOP-0O88MI1  ProcessID: 16576
+# 
+#           Attempting to use alternate WLF file "./wlft6e5f42".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft6e5f42
+# 
+add wave -position insertpoint  \
+sim:/risc_top/zero \
+sim:/risc_top/write_data \
+sim:/risc_top/stall \
+sim:/risc_top/srcb \
+sim:/risc_top/sel_write_data \
+sim:/risc_top/rst \
+sim:/risc_top/reg_write \
+sim:/risc_top/read_data2 \
+sim:/risc_top/read_data1 \
+sim:/risc_top/pc_target \
+sim:/risc_top/pc_sel \
+sim:/risc_top/pc_plus4 \
+sim:/risc_top/pc_next \
+sim:/risc_top/pc \
+sim:/risc_top/mem_read_data \
+sim:/risc_top/jump \
+sim:/risc_top/inst_read \
+sim:/risc_top/imm_src \
+sim:/risc_top/imm_ext \
+sim:/risc_top/clk \
+sim:/risc_top/branch \
+sim:/risc_top/alu_src \
+sim:/risc_top/alu_res \
+sim:/risc_top/alu_ctrl \
+sim:/risc_top/WIDTH \
+sim:/risc_top/Mem_Write \
+sim:/risc_top/Mem_Read
+add wave -position insertpoint  \
+sim:/risc_top/cache/stall \
+sim:/risc_top/cache/rst \
+sim:/risc_top/cache/ready_cach_main \
+sim:/risc_top/cache/read_cache_data \
+sim:/risc_top/cache/mem_write \
+sim:/risc_top/cache/mem_read \
+sim:/risc_top/cache/main_read \
+sim:/risc_top/cache/data_out \
+sim:/risc_top/cache/data_in \
+sim:/risc_top/cache/counter \
+sim:/risc_top/cache/clk \
+sim:/risc_top/cache/cach_write \
+sim:/risc_top/cache/addr \
+sim:/risc_top/cache/WIDTH \
+sim:/risc_top/cache/ADDRESS
+add wave -position insertpoint  \
+sim:/risc_top/cache/data/mem
+add wave -position insertpoint  \
+sim:/risc_top/cache/cache/mem
+force -freeze sim:/risc_top/clk 1 0, 0 {50 ns} -r 100
+force -freeze sim:/risc_top/rst {0} 0
+# Invalid binary digit: .
+# ** Error: (vsim-4011) Invalid force value: {0} 0.
+# 
+run
+run
+force -freeze sim:/risc_top/rst {1} 0
+# Invalid binary digit: .
+# ** Error: (vsim-4011) Invalid force value: {1} 0.
+# 
+run -all
+# Break key hit 
+# Break in Module cache_mem at cache_mem.v line 13
+restart -f
+force -freeze {sim:/risc_top/clk} 1 0, 0 {50 ns} -r 100
+# ** Error: (vish-4008) Object 'sim:/risc_top/clk' not found.
+# 
+force -freeze sim:/risc_top/clk 1 0, 0 {50 ns} -r 100
+force -freeze sim:/risc_top/rst 0 0
+run
+force -freeze sim:/risc_top/rst {1} 0
+# Invalid binary digit: .
+# ** Error: (vsim-4011) Invalid force value: {1} 0.
+# 
+run -all
+# Break key hit 
+# Simulation stop requested.
+restart -f
+force -freeze {sim:/risc_top/clk} 1 0, 0 {50 ns} -r 100
+# ** Error: (vish-4008) Object 'sim:/risc_top/clk' not found.
+# 
+force -freeze sim:/risc_top/rst 0 0
+run
+force -freeze sim:/risc_top/clk 1 0, 0 {50 ns} -r 100
+run
+force -freeze sim:/risc_top/rst 1 0
+run
+run -all
+# Break key hit 
+# Simulation stop requested.

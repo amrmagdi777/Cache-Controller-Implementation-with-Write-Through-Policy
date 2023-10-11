@@ -1,0 +1,328 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vadd_4
+!i10b 1
+Z1 !s100 Lhdag7e5TDGoKF5LccRSB3
+Z2 IoM9oQ2NFBLbW9BhBCBSZd0
+Z3 VT2a2m6NbzKa[WD8ie0^8c2
+Z4 dC:\Users\AMR\OneDrive\Desktop\ITI_labs\RISC_V_Cache
+Z5 w1692258805
+Z6 8add_4.v
+Z7 Fadd_4.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1694613679.437000
+Z10 !s107 top_cache.v|cache_mem.v|cache_fsm.v|mux4x1.v|mux2x1.v|add_4.v|adder.v|ALU.v|Inst_mem.v|Extend.v|Data_mem.v|Controller.v|Reg_file.v|Pc_count.v|risc_top.v|test.v|
+Z11 !s90 test.v|risc_top.v|Pc_count.v|Reg_file.v|Controller.v|Data_mem.v|Extend.v|Inst_mem.v|ALU.v|adder.v|add_4.v|mux2x1.v|mux4x1.v|cache_fsm.v|cache_mem.v|top_cache.v|
+!s101 -O0
+o-O0
+vadder
+!i10b 1
+Z12 !s100 Mi3RHeCOfbGc5f=71FGA?0
+Z13 ISO<0R?bI:01OKYdnRPNm]1
+Z14 V;hE9=k7CFm?ac;AL>a:JB2
+R4
+Z15 w1692223927
+Z16 8adder.v
+Z17 Fadder.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+valu
+!i10b 1
+Z18 !s100 93b>6F]LH1^Z2BHB:n5mZ0
+Z19 IGoVXV[fS?Ca2STS^kCMne2
+Z20 VBUZUN]QSmjk1IT4@01Ik83
+R4
+Z21 w1692270442
+Z22 8ALU.v
+Z23 FALU.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vcache_fsm
+!i10b 1
+!s100 ReY:i@g]0CzzQgm9E6O142
+I3]9NbeeLfEFSG1aIajcI20
+Z24 V^1Dia<XQYEYL]`D:Nbl[T0
+R4
+w1694613669
+Z25 8cache_fsm.v
+Z26 Fcache_fsm.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vcache_mem
+!i10b 1
+Z27 !s100 jiaB3^bd5VCV1d>zkKhzn1
+Z28 Ij^WBP7S]UaS[7bjXH]G?k2
+Z29 V>=0QA9f5diFWD;Z@1VmCK0
+R4
+Z30 w1694613638
+Z31 8cache_mem.v
+Z32 Fcache_mem.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vcashe_memory
+Z33 IH=Ym]VYD5i^NDf1VM^FR:3
+Z34 VH4BJCQ7lAbiR;J]RKNZb01
+R4
+Z35 w1694028999
+Z36 8mah_cache.v
+Z37 Fmah_cache.v
+L0 1
+R8
+r1
+31
+o-O0
+Z38 !s100 IcA4BZOXo0BF1Zi4?:jUn0
+Z39 !s108 1694029265.118000
+Z40 !s107 mah_cache.v|
+Z41 !s90 mah_cache.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontrol_unit
+!i10b 1
+Z42 !s100 jY1GUkY;U4hI29V=TDVmc3
+Z43 IN77[l8b;`d3?HXBIo[O2g3
+Z44 VETalK<:eWdAE3B`bkQYDB2
+R4
+Z45 w1694273281
+Z46 8Controller.v
+Z47 FController.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vdata_mem
+!i10b 1
+Z48 !s100 5HLDM]d;fhC[leh0B1R571
+Z49 I0Vk<cSCi<EWolAjS^dF7a0
+Z50 VKBBc]CB4A`Ilc=X9_>;k>2
+R4
+Z51 w1694372125
+Z52 8Data_mem.v
+Z53 FData_mem.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vextend
+!i10b 1
+Z54 !s100 NAonLKn>RD?9TF8J:i^ij2
+Z55 IH8[3@oiS0E]R`2X[>Ybh]3
+Z56 VB=camoC[2bJc<3f4e9gOW0
+R4
+Z57 w1692223713
+Z58 8Extend.v
+Z59 FExtend.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vinst_mem
+!i10b 1
+Z60 !s100 ?mgbGC`n00[7Mn]@JcI_n3
+Z61 I9z6_A^LRMU;cDn_9Ic^hV1
+Z62 VOVol?Q2>]OzB9KE7[HPOX0
+R4
+Z63 w1692810341
+Z64 8Inst_mem.v
+Z65 FInst_mem.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vmux2x1
+!i10b 1
+Z66 !s100 gMR=CkSzWgbaW1YdPA8Pe2
+Z67 I^ReLIo`OAI:ekcz[H[7fP0
+Z68 VSL6`NMbSN[?4^;BN`=PY>3
+R4
+Z69 w1692259337
+Z70 8mux2x1.v
+Z71 Fmux2x1.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vmux4x1
+!i10b 1
+Z72 !s100 9EQJ3GObOWH2:NeLSJo^e0
+Z73 I0XmamEgT0lOA0l7Y=:2VO0
+Z74 VPMKL<lleXSjV1a8SUc;8b3
+R4
+Z75 w1692261902
+Z76 8mux4x1.v
+Z77 Fmux4x1.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vpc_count
+!i10b 1
+Z78 !s100 cAbeJdM65CDHBHM<LfnQE3
+Z79 IiE2KH?n<a=>kjH^_F:no_1
+Z80 VON3`B;EJaNN?=9WH<Q[IS3
+R4
+Z81 w1694272068
+Z82 8Pc_count.v
+Z83 FPc_count.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vreg_file
+!i10b 1
+Z84 !s100 RkDG5;FK`GU@Vi[iH6o=_3
+Z85 I8z>M0XIkmfB^[i_VlB4lE1
+Z86 V?MJZJ`ebaneTYWTjD>^?T0
+R4
+Z87 w1692810408
+Z88 8Reg_file.v
+Z89 FReg_file.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vrisc_top
+!i10b 1
+Z90 !s100 ;z88?LzncgLJiWjHlAhBM2
+Z91 I;7cOCZF5<_?i3O3h0Le7;2
+Z92 VT6DiPQAjXQeCh_XO9Vnk`0
+R4
+Z93 w1694273409
+Z94 8risc_top.v
+Z95 Frisc_top.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vtest
+!i10b 1
+Z96 !s100 T?VX>OG>mX]kH4Pnk=HBm1
+Z97 I`U]C4Yh5KJ:8TV2oQi1Od0
+Z98 Vk<3<[f=78GX=_HO53D;7>3
+R4
+Z99 w1692263636
+Z100 8test.v
+Z101 Ftest.v
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vtop_cache
+!i10b 1
+Z102 !s100 1V`eka`_]Qa1ce4cB_zP62
+Z103 IQ:D3UlI[icAXcXZ?4m8lH2
+Z104 V@`z6mLzZB@zc=^PC]FgLG0
+R4
+Z105 w1694613554
+Z106 8top_cache.v
+Z107 Ftop_cache.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
